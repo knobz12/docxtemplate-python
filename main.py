@@ -5,6 +5,8 @@ import os
 from tkinter import ttk
 from tkinter import scrolledtext
 
+## titel, best_person, text
+
 class database:
     def __init__(self) -> None:
         self.con = sqlite3.connect("database.db")
